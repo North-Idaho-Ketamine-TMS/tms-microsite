@@ -201,6 +201,26 @@ h2 {
   padding: 1.1rem 1.15rem;
 }
 
+.hero-aside-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero-figure {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background: var(--surface);
+}
+
+.hero-figure img {
+  width: 100%;
+  height: auto;
+}
+
 .hero-card {
   align-self: start;
 }
