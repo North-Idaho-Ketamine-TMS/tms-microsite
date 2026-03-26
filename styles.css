@@ -64,6 +64,9 @@ a {
   flex: 0 1 auto;
   max-width: min(320px, 56vw);
   text-decoration: none;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--text);
 }
 
 .site-logo img {
@@ -171,6 +174,14 @@ h2 {
   color: var(--brand);
   font-weight: 600;
   letter-spacing: 0.02em;
+}
+
+.eyebrow-cursive {
+  font-family: "Great Vibes", cursive;
+  font-size: clamp(1.5rem, 1.2rem + 1vw, 2.1rem);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  text-transform: none;
 }
 
 .section {
