@@ -13,10 +13,17 @@
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="index.html">North Idaho Ketamine &amp; TMS</a>
+      <a class="site-logo" href="https://www.northidahoketamine.com/" aria-label="North Idaho Ketamine & TMS (Main site)">
+        <img
+          src="assets/NIKetamine_Logo_2024_Horizontal.jpg"
+          alt="North Idaho Ketamine & TMS"
+          loading="eager"
+          decoding="async"
+        >
+      </a>
       <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav">Menu</button>
       <nav id="primaryNav" class="primary-nav" aria-label="Primary">
-        <a class="active" href="index.html">Overview</a>
+        <a href="index.html">Overview</a>
         <a href="protocols.html">Protocols</a>
         <a href="travel.html">Travel Patients</a>
         <a class="nav-cta" href="https://www.northidahoketamine.com/book-online" target="_blank" rel="noopener">Book consult</a>
@@ -41,7 +48,11 @@
             <a class="btn btn-secondary" href="protocols.html">Protocols &amp; pricing</a>
           </div>
         </div>
-        <aside class="card hero-card">
+        <div class="hero-aside-col">
+          <figure class="hero-figure">
+            <img src="assets/TMS%20Head%20Reference%20White%20Background.jpg" alt="TMS coil placement reference at the head" loading="eager" decoding="async">
+          </figure>
+          <aside class="card hero-card">
           <h2>At a glance</h2>
           <ul class="check-list">
             <li>Board-certified psychiatrist evaluation and mapping oversight</li>
@@ -52,7 +63,8 @@
           <p class="small-note disclaim">
             TMS is FDA-cleared for eligible patients; accelerated schedules and packages are individualized. Results vary. Nothing on this site replaces medical advice.
           </p>
-        </aside>
+          </aside>
+        </div>
       </div>
     </section>
 
