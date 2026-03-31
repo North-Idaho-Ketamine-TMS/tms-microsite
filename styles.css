@@ -109,16 +109,19 @@ a {
 }
 
 .nav-cta {
-  background: rgba(216, 192, 138, 0.95);
-  color: #14110a !important;
+  background: linear-gradient(165deg, #3d6f8f 0%, #2a5570 45%, #1c3d52 100%);
+  color: #f0f6fa !important;
+  border: 1px solid rgba(80, 140, 180, 0.55);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
   padding: 0.45rem 0.85rem;
   border-radius: 10px;
   font-weight: 600;
 }
 
 .nav-cta:hover {
-  background: rgba(202, 168, 98, 0.98);
-  color: #14110a !important;
+  background: linear-gradient(165deg, #4a7fa0 0%, #356580 45%, #254a62 100%);
+  color: #fff !important;
+  border-color: rgba(100, 160, 200, 0.5);
 }
 
 .menu-toggle {
