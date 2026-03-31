@@ -367,16 +367,16 @@ h2 {
 }
 
 .hero-intro .btn-primary {
-  background: linear-gradient(165deg, #6aa8c9 0%, #4580a8 42%, #2f6588 100%);
-  color: #f5fafc;
-  border-color: rgba(130, 190, 225, 0.45);
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(165deg, #3d6f8f 0%, #2a5570 45%, #1c3d52 100%);
+  color: #f0f6fa;
+  border-color: rgba(80, 140, 180, 0.55);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 }
 
 .hero-intro .btn-primary:hover {
-  background: linear-gradient(165deg, #7ab8d6 0%, #5290b8 42%, #3a7396 100%);
+  background: linear-gradient(165deg, #4a7fa0 0%, #356580 45%, #254a62 100%);
   color: #fff;
-  border-color: rgba(160, 210, 240, 0.55);
+  border-color: rgba(100, 160, 200, 0.5);
 }
 
 .btn-secondary {
