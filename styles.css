@@ -366,6 +366,19 @@ h2 {
   background: rgba(202, 168, 98, 1);
 }
 
+.hero-intro .btn-primary {
+  background: linear-gradient(165deg, #6aa8c9 0%, #4580a8 42%, #2f6588 100%);
+  color: #f5fafc;
+  border-color: rgba(130, 190, 225, 0.45);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.hero-intro .btn-primary:hover {
+  background: linear-gradient(165deg, #7ab8d6 0%, #5290b8 42%, #3a7396 100%);
+  color: #fff;
+  border-color: rgba(160, 210, 240, 0.55);
+}
+
 .btn-secondary {
   background: rgba(12, 16, 21, 0.4);
   border-color: rgba(255, 255, 255, 0.18);
